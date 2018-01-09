@@ -19,7 +19,11 @@
  
  */
 // Answer question 3 below
-
+var valueOfDimes = 0.10
+var dimeCount = 17      // Should be integer as you cannot have part of a dime
+var valueOfQuarters = 0.25
+var quarterCount = 2    // Also should be integer for same reason as dimeCount
+let totalValueOfCoins = valueOfDimes * Double(dimeCount) + valueOfQuarters * Double(quarterCount)
 /*:
  ## Now share your understanding
  
