@@ -17,6 +17,9 @@
  
  */
 // Answer question 2 below
+let albumName = "Ukulele Gold"      // name will not change
+var copiesSold = 0                  // this will change over time
+var suggestedSellingPrice = 9.99    // might change if album doesn't sell
 
 /*:
  ## Now share your understanding
